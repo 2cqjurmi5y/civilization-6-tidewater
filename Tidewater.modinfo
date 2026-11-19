@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b04fc5b5-3912-4eb3-ab19-958b1e207eea" version="1">
+	<Properties>
+		<Name>Tidewater</Name>
+		<Description>A coastal and naval rebalance. Sea resources, the harbor chain and the price of a navy all get a second look.</Description>
+		<Authors>2cqjurmi5y</Authors>
+		<CompatibleVersions>1.0.12.9</CompatibleVersions>
+		<CompatibleVersions>1.0.11.16</CompatibleVersions>
+		<CompatibleVersions>2.0</CompatibleVersions>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<ShowInBrowser>1</ShowInBrowser>
+		<Stability>STABLE</Stability>
+	</Properties>
+	<InGameActions>
+		<UpdateDatabase id="Tidewater_Gameplay">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Items>
+				<File>Data/Tidewater.sql</File>
+				<File>Text/Tidewater_Text_en_US.sql</File>
+				<File>Text/Tidewater_Text_zh_Hans_CN.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</InGameActions>
+</Mod>
